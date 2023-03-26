@@ -1,7 +1,7 @@
-provider aws{
+provider "aws"{
     region = "us-east-1"
-    access_key = "AKIAYHXJXKPKMOE5VRUP"
-    secret_key = "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"
+    access_key = "AKIAYHXJXKPKEHK7Q5HL"
+    secret_key = "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"
 }
 
 resource "aws_instance" "ec2" {
